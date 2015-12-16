@@ -22,8 +22,20 @@ end
 group :development do
   gem 'spring'
   gem 'web-console', '~> 2.0'
+  gem 'spring-commands-rspec'
+  gem 'guard-rspec'
+  gem 'guard-spring'
+  gem 'better_errors'
+  gem 'bullet'
+  gem 'rubocop'
+  gem 'guard-rubocop'
 end
 
 group :development, :test do
   gem 'byebug'
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'database_cleaner'
+  gem 'autodoc'
+  gem 'capybara'
 end
