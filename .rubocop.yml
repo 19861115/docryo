@@ -1,0 +1,11 @@
+AllCops:
+  RunRailsCops: true
+
+Metrics/LineLength:
+  Max: 120
+
+Style/Documentation:
+  Exclude:
+    - 'app/controllers/application_controller.rb'
+    - 'app/helpers/application_helper.rb'
+    - 'config/application.rb'
