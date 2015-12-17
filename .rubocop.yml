@@ -4,6 +4,9 @@ AllCops:
 Metrics/LineLength:
   Max: 120
 
+Documentation:
+  Enabled: false
+
 Style/Documentation:
   Exclude:
     - 'app/controllers/application_controller.rb'
