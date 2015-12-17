@@ -46,13 +46,14 @@ class LabelsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_label
-      @label = Label.find(params[:id])
-    end
 
-    # Only allow a trusted parameter "white list" through.
-    def label_params
-      params.require(:label).permit(:name)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_label
+    @label = Label.find(params[:id])
+  end
+
+  # Only allow a trusted parameter "white list" through.
+  def label_params
+    params.require(:label).permit(:name)
+  end
 end
